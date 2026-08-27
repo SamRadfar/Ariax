@@ -1,0 +1,31 @@
+{
+  "name": "ariax",
+  "version": "1.2.4",
+  "private": true,
+  "author": {
+    "name": "Danial Safarli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-GITHUB-USERNAME/ariax.git"
+  },
+  "homepage": "https://github.com/YOUR-GITHUB-USERNAME/ariax",
+  "bugs": "https://github.com/YOUR-GITHUB-USERNAME/ariax/issues",
+  "type": "module",
+  "workspaces": [
+    "api",
+    "frontend"
+  ],
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:api": "node scripts/start-api.js",
+    "dev:frontend": "npm run dev --workspace=ariax-frontend",
+    "build": "npm run build --workspace=ariax-frontend",
+    "test": "npm run test --workspace=ariax-frontend",
+    "start": "node scripts/start-api.js"
+  },
+  "license": "AGPL-3.0-or-later"
+}

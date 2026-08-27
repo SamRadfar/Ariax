@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ARIAX</string>
+    <string name="title_activity_main">ARIAX</string>
+    <string name="package_name">app.ariax.gym</string>
+    <string name="custom_url_scheme">app.ariax.gym</string>
+</resources>
